@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f5f5f5"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="80" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="40" y="50" font-family="Arial" font-size="24" fill="#333333">📚 Book Library</text>
+  
+  <!-- Active Search Bar -->
+  <rect x="40" y="100" width="600" height="40" rx="4" fill="#ffffff" stroke="#4a90e2" stroke-width="2"/>
+  <text x="60" y="125" font-family="Arial" font-size="14" fill="#333333">Harry Potter</text>
+  <rect x="50" y="145" width="580" height="120" rx="4" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <!-- Search Results -->
+  <text x="60" y="170" font-family="Arial" font-size="14" fill="#333333">Harry Potter and the Sorcerer's Stone</text>
+  <text x="60" y="190" font-family="Arial" font-size="12" fill="#666666">J.K. Rowling</text>
+  <text x="60" y="220" font-family="Arial" font-size="14" fill="#333333">Harry Potter and the Chamber of Secrets</text>
+  <text x="60" y="240" font-family="Arial" font-size="12" fill="#666666">J.K. Rowling</text>
+  
+  <!-- Active Sort Dropdown -->
+  <rect x="660" y="100" width="100" height="40" rx="4" fill="#ffffff" stroke="#4a90e2" stroke-width="2"/>
+  <text x="675" y="125" font-family="Arial" font-size="14" fill="#333333">Author ▼</text>
+  
+  <!-- Sort Options -->
+  <rect x="660" y="145" width="100" height="90" rx="4" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="675" y="170" font-family="Arial" font-size="14" fill="#333333">Title</text>
+  <text x="675" y="195" font-family="Arial" font-size="14" fill="#4a90e2">Author</text>
+  <text x="675" y="220" font-family="Arial" font-size="14" fill="#333333">Date</text>
+</svg>
