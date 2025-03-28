@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="header">
+            <h1>📚 Book Library</h1>
+        </header>
+        <main class="main-content">
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search books...">
+                <select id="sort-select">
+                    <option value="title">Sort by Title</option>
+                    <option value="author">Sort by Author</option>
+                    <option value="date">Sort by Date</option>
+                </select>
+            </div>
+            <div class="books-grid"></div>
+            <div id="loading" class="loading-spinner hidden">
+                <div class="spinner"></div>
+                <p>Loading books...</p>
+            </div>
+        </main>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>

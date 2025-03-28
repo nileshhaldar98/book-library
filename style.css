@@ -1,0 +1,157 @@
+/* Reset default styles and set base font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+/* Main container that ensures full viewport height */
+.app-container {
+    min-height: 100vh;
+}
+
+/* Header styling with subtle border and background */
+.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #e9ecef;
+}
+
+/* Header title styling */
+.header h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+}
+
+/* Main content area with padding and background */
+.main-content {
+    flex: 1;
+    padding: 30px;
+    background-color: #fff;
+}
+
+/* Search bar container with flexbox layout */
+.search-bar {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+/* Search input field styling */
+#search-input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+/* Sort dropdown styling */
+#sort-select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 1rem;
+}
+
+/* Responsive grid layout for books */
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 20px 0;
+}
+
+/* Book card with hover effect and shadow */
+.book-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+/* Subtle lift effect on hover */
+.book-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Book cover image styling */
+.book-cover {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Book information container */
+.book-info {
+    padding: 15px;
+}
+
+/* Book title styling */
+.book-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Book author styling */
+.book-author {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+/* Loading spinner container */
+.loading-spinner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* Animated loading spinner */
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #007bff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+/* Spinner animation keyframes */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Utility class to hide elements */
+.hidden {
+    display: none;
+}
+
+/* Load more button styling with hover effect */
+.load-more-btn {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+/* Load more button hover state */
+.load-more-btn:hover {
+    background-color: #0056b3;
+}
