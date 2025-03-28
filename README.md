@@ -2,6 +2,11 @@
 
 A modern, responsive web application for browsing and discovering books using the Google Books API. 
 
+## Live Demo
+
+-  [Live Preview](https://book-library-ecru.vercel.app/)
+-  [GitHub Repository](https://github.com/nileshhaldar98/book-library)
+
 ## Features
 
 ###  Responsive Book Grid
