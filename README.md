@@ -47,13 +47,13 @@ A modern, responsive web application for browsing and discovering books using th
 ## Screenshots
 
 ### Main Interface
-![Main Interface](screenshots/main-interface.svg)
+![Main Interface](screenshots/main-interface.png)
 
 ### Search and Sort
-![Search and Sort](screenshots/search-sort.svg)
+![Search and Sort](screenshots/search-sort.png)
 
 ### Loading State
-![Loading State](screenshots/loading-state.svg)
+![Loading State](screenshots/loading-state.png)
 
 ## Technologies Used
 
